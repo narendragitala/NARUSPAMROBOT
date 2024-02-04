@@ -26,7 +26,7 @@
 
 
 <details>
-<summary><b>∂єρℓσу тσ нєʀσкυ</b></summary>
+<summary><b>ＤＥＰＬＯＵ ＴＯ ＨＥＲＯＫＵ</b></summary>
 <br>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/sachinsanatani/SanatanixSpam)
@@ -35,7 +35,7 @@
 
 
 <details>
-<summary><b>∂єρℓσу тσ кσуєв</b></summary>
+<summary><b>ＤＥＰＬＯＵ ＴＯ ＫＯＹＥＢ</b></summary>
 <br>
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=&branch=name&name=thealtron)
