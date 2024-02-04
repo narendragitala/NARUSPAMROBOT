@@ -22,15 +22,15 @@ async def help(event):
                                   caption=PythonHelp,
                                   buttons=[
            [
-            Button.inline("⦿ ѕραм ⦿", data="spam"),
-            Button.inline("⦿ ʀαι∂ ⦿", data="raid"),
+            Button.inline("⦿ ＳＰＡＭ ⦿", data="spam"),
+            Button.inline("⦿ ＲＡＩＤ ⦿", data="raid"),
            ],
            [
-            Button.inline("⦿ єxтʀα ⦿", data="extra"),
+            Button.inline("⦿ ＥＸＴＲＡ ⦿", data="extra"),
            ],
            [    
-            Button.url("⦿ ᴄнαииєℓ ⦿", "https://t.me/I_M_FIGHTER"),
-            Button.url("⦿ ѕυρρσʀт ⦿", "https://t.me/II_4ST_FIGHTER_ll")
+            Button.url("⦿ ＣＨＡＮＮＥＬ ⦿", "https://t.me/SANATANI_IS_HERE"),
+            Button.url("⦿ ＳＵＰＰＯＲＴ ⦿", "https://t.me/II_4ST_FIGHTER_ll")
            ],
            ],
            )
@@ -39,7 +39,7 @@ async def help(event):
 extra_msg = f"""
 **:- єxтяα ᴄσммαи∂ :**
 
-υѕєʀвσт: υѕєʀвσт ᴄми∂
+ＵＳＥＲＢＯＴ: ＵＳＥＲＢＯＴ ＣＭＮＤ
   1) {hl}ping 
   2) {hl}reboot
   3) {hl}sudo <reply to user>  --> Owner Cmd
@@ -49,7 +49,7 @@ extra_msg = f"""
   1) {hl}echo <reply to user>
   2) {hl}rmecho <reply to user>
 
-ℓєανє :- тσ ℓєανє gʀσυρ // ᴄнαииєℓ
+ℓєανє :- тσ ℓєανє gʀσυρ / ᴄнαииєℓ
   1) {hl}leave <group/chat id>
   2) {hl}leave : Type in the Group bot will auto leave that group
 
@@ -123,20 +123,20 @@ async def helpback(event):
             PythonHelp,
             buttons=[
            [
-            Button.inline("⦿ ѕραм ⦿", data="spam"),
-            Button.inline("⦿ ʀαι∂ ⦿", data="raid"),
+            Button.inline("⦿ ＳＰＡＭ ⦿", data="spam"),
+            Button.inline("⦿ ＲＡＩＤ ⦿", data="raid"),
            ],
            [
-            Button.inline("⦿ єxтʀᴀ ⦿", data="extra"),
+            Button.inline("⦿ ＥＸＴＲＡ ⦿", data="extra"),
            ],
            [
-            Button.url("⦿ ᴄнαииєℓ ⦿", "https://t.me/I_M_FIGHTER"),
-            Button.url("⦿ ѕυρρσʀт ⦿", "https://t.me/II_4ST_FIGHTER_ll")
+            Button.url("⦿ ＣＨＡＮＮＥＬ ⦿", "https://t.me/SANATANI_IS_HERE"),
+            Button.url("⦿ ＳＵＰＰＯＲＴ ⦿", "https://t.me/II_4ST_FIGHTER_ll")
            ],
            ],
         )           
    else:
-        await event.answer("ѕυи ʀє נнαт кє вααℓ тg ρє ʀαниα тσ 4ѕт / ѕαиαтαиι кσ вααρ вσℓ иα нι ρα∂єgα ʀє ʀαи∂ι кє....♥︎", cache_time=0, alert=True)
+        await event.answer("𝗦𝗔𝗖𝗛𝗜𝗡 𝗦𝗔𝗡𝗔𝗧𝗔𝗡𝗜 [ @V_VIP_OWNER ] 𝗗𝗠 𝗞𝗔𝗥 𝗦𝗨𝗗𝗢 𝗠𝗜𝗟 𝗝𝗔𝗬𝗘𝗚𝗔︎ || 𝗘𝗞 𝗕𝗔𝗔𝗥 𝗣𝗔𝗣𝗔 𝗕𝗢𝗟 𝗡𝗔 𝗥𝗔𝗡𝗗𝗜 𝗞𝗘", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"spam"))
@@ -152,10 +152,10 @@ async def helpback(event):
 async def help_spam(event):
    if event.query.user_id in SUDO_USERS:    
        await event.edit(spam_msg,
-            buttons=[[Button.inline("< Back", data="help_back"),],],
+            buttons=[[Button.inline("< ＢＡＣＫ", data="help_back"),],],
             ) 
    else:
-        await event.answer("ѕυи ʀє נнαт кє вααℓ тg ρє ʀαниα тσ 4ѕт / ѕαиαтαиι кσ вααρ вσℓ иα нι ρα∂єgα ʀє ʀαи∂ι кє....♥", cache_time=0, alert=True)
+        await event.answer("𝗦𝗔𝗖𝗛𝗜𝗡 𝗦𝗔𝗡𝗔𝗧𝗔𝗡𝗜 [ @V_VIP_OWNER ] 𝗗𝗠 𝗞𝗔𝗥 𝗦𝗨𝗗𝗢 𝗠𝗜𝗟 𝗝𝗔𝗬𝗘𝗚𝗔︎ || 𝗘𝗞 𝗕𝗔𝗔𝗥 𝗣𝗔𝗣𝗔 𝗕𝗢𝗟 𝗡𝗔 𝗥𝗔𝗡𝗗𝗜 𝗞𝗘", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"raid"))
@@ -171,10 +171,10 @@ async def help_spam(event):
 async def help_raid(event):
      if event.query.user_id in SUDO_USERS:
         await event.edit(raid_msg,
-            buttons=[[Button.inline("< вαᴄк", data="help_back"),],],
+            buttons=[[Button.inline("< ＢＡＣＫ", data="help_back"),],],
             )  
      else:
-        await event.answer("ѕυи ʀє נнαт кє вααℓ тg ρє ʀαниα тσ 4ѕт / ѕαиαтαиι кσ вααρ вσℓ иα нι ρα∂єgα ʀє ʀαи∂ι кє....♥", cache_time=0, alert=True)
+        await event.answer("𝗦𝗔𝗖𝗛𝗜𝗡 𝗦𝗔𝗡𝗔𝗧𝗔𝗡𝗜 [ @V_VIP_OWNER ] 𝗗𝗠 𝗞𝗔𝗥 𝗦𝗨𝗗𝗢 𝗠𝗜𝗟 𝗝𝗔𝗬𝗘𝗚𝗔︎ || 𝗘𝗞 𝗕𝗔𝗔𝗥 𝗣𝗔𝗣𝗔 𝗕𝗢𝗟 𝗡𝗔 𝗥𝗔𝗡𝗗𝗜 𝗞𝗘", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"extra"))
@@ -190,7 +190,7 @@ async def help_raid(event):
 async def help_extra(event):
    if event.query.user_id in SUDO_USERS:
         await event.edit(extra_msg,
-            buttons=[[Button.inline("< Back", data="help_back"),],],
+            buttons=[[Button.inline("< ＢＡＣＫ", data="help_back"),],],
             )
    else:
-        await event.answer("ѕυи ʀє נнαт кє вααℓ тg ρє ʀαниα тσ 4ѕт / ѕαиαтαиι кσ вααρ вσℓ иα нι ρα∂єgα ʀє ʀαи∂ι кє....♥", cache_time=0, alert=True)
+        await event.answer("𝗦𝗔𝗖𝗛𝗜𝗡 𝗦𝗔𝗡𝗔𝗧𝗔𝗡𝗜 [ @V_VIP_OWNER ] 𝗗𝗠 𝗞𝗔𝗥 𝗦𝗨𝗗𝗢 𝗠𝗜𝗟 𝗝𝗔𝗬𝗘𝗚𝗔︎ || 𝗘𝗞 𝗕𝗔𝗔𝗥 𝗣𝗔𝗣𝗔 𝗕𝗢𝗟 𝗡𝗔 𝗥𝗔𝗡𝗗𝗜 𝗞𝗘", cache_time=0, alert=True)
