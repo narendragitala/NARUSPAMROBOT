@@ -29,7 +29,7 @@
 <summary><b>ＤＥＰＬＯＵ ＴＯ ＨＥＲＯＫＵ</b></summary>
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/sachinsanatani/SanatanixSpam)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/SachinxSanatani/SanatanixSpam)
   
 </details>
 
