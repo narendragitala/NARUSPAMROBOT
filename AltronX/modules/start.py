@@ -5,14 +5,14 @@ import telethon
 
 PythonButton = [
         [
-        Button.inline("⛩️ ＣＯＭＭＡＮＤＳ ⛩️", data="help_back")
+        Button.inline("⛩️ ¢σммαи∂ѕ ⛩️", data="help_back")
         ],
         [
-        Button.url("🏩 ＣＨＡＴ ＧＲＰ 🏩", "https://t.me/II_4ST_FIGHTER_ll"),
-        Button.url("🍹 ＳＵＰＰＯＲＴ 🍹", "https://t.me/SANATANI_IS_HERE")
+        Button.url("🗼 ¢нαт gяρ 🗼", "https://t.me/II_4ST_FIGHTER_ll"),
+        Button.url("🍹 ѕυρρσят 🍹", "https://t.me/SANATANI_IS_HERE")
         ],
         [
-        Button.url("🍬 ＭＲ ＳＡＣＨＩＮ 🍬", "https://t.me/V_VIP_OWNER")
+        Button.url("🍁 ＭＲ ＳＡＣＨＩＮ 🍁", "https://t.me/V_VIP_OWNER")
         ]
         ]
 
