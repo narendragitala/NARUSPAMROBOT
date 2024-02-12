@@ -33,10 +33,10 @@ async def start(event):
         AltBot = await event.client.get_me()
         BotName = AltBot.first_name
         BotId = AltBot.id
-        TEXT = f"**ㅤ⏣ нєℓℓσ му ∂єαʀ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nㅤ⌾ 𝗜 𝗔𝗠 [{BotName}](tg://user?id={BotId})​**\n╭─────────────────────╮\n\n"
+        TEXT = f"**ㅤ⏣ нєℓℓσ му ∂єαʀ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nㅤ⌾ 𝗜 𝗔𝗠 [{BotName}](tg://user?id={BotId})​**\n╭───────────────────╮\n\n"
         TEXT += f"» **ㅤ[ᯤ] ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ‣ [ѕαиαтαиι вσу](https://t.me/V_VIP_OWNER)**\n\n"
         TEXT += f"» **ㅤ[ᯤ] 𝗦𝝙𝗡𝝙𝗧𝝙𝗡𝗜 || 𝗦𝗣𝝙𝗠​ ‣** `3.2`\n"
-        TEXT += f"» **ㅤ[ᯤ] 𝗦𝝙𝗡𝝙𝗧𝝙𝗡𝗜 || 𝗦𝗣𝝙𝗠​ ‣** `{telethon.__version__}`\n╰─────────────────────╯"
+        TEXT += f"» **ㅤ[ᯤ] 𝗦𝝙𝗡𝝙𝗧𝝙𝗡𝗜 || 𝗦𝗣𝝙𝗠​ ‣** `{telethon.__version__}`\n╰───────────────────╯"
         await event.client.send_file(
                 event.chat_id,
                 "https://telegra.ph/file/204854c3a0cb8cfeae36c.jpg",
