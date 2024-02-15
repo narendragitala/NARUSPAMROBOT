@@ -5,11 +5,11 @@ import telethon
 
 PythonButton = [
         [
-        Button.inline("⛩️ ¢σммαи∂ѕ ⛩️", data="help_back")
+        Button.inline("⛩️ ᴄσммαи∂ѕ ⛩️", data="help_back")
         ],
         [
-        Button.url("🗼 ¢нαт gяρ 🗼", "https://t.me/II_4ST_FIGHTER_ll"),
-        Button.url("🍹 ѕυρρσят 🍹", "https://t.me/SANATANI_IS_HERE")
+        Button.url("🗼 ᴄнαт gʀρ 🗼", "https://t.me/II_4ST_FIGHTER_ll"),
+        Button.url("🍹 ѕυρρσʀт 🍹", "https://t.me/SANATANI_IS_HERE")
         ],
         [
         Button.url("🍁 ＭＲ ＳＡＣＨＩＮ 🍁", "https://t.me/V_VIP_OWNER")
