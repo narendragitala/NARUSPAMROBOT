@@ -26,11 +26,11 @@ async def echo(event):
         reply_msg = await event.get_reply_message()
         user_id = reply_msg.sender_id
         if int(user_id) in ALTRON:
-            await event.reply("αвє נнαт кє вααℓ ує тєʀα внι вααρ нαι :: мтℓв 4ѕт вαℓα нαι", parse_mode=None, link_preview=None)
+            await event.reply("αвє נнαт кє вααℓ ує тєʀα внι вααρ нαι :: мтℓв ρʀσfєѕѕσʀ вαℓα нαι", parse_mode=None, link_preview=None)
         elif int(user_id) == OWNER_ID:
             await event.reply("αвє ѕυи ує тєʀα внι вααρ нαι", parse_mode=None, link_preview=None)
         elif int(user_id) in SUDO_USERS:
-            await event.reply("ѕυи иα внαι ℓαgтα нαι ує 4ѕт вαℓα нαι 🥰🥰", parse_mode=None, link_preview=None)
+            await event.reply("ѕυи иα внαι ℓαgтα нαι ує ρʀσfєѕѕσʀ вαℓα нαι 🥰🥰", parse_mode=None, link_preview=None)
         else:
             chat_id = event.chat_id
             try:
