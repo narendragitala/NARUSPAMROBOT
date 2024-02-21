@@ -33,8 +33,7 @@ async def start(event):
         AltBot = await event.client.get_me()
         BotName = AltBot.first_name
         BotId = AltBot.id
-        TEXT = f"**🍹 ʜᴇʟʟᴇ ᴍʏ ᴅᴇᴀʀ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n
-        TEXT += f"⌾ 𝗜 𝗔𝗠 [{BotName}](tg://user?id={BotId})​**\n╭───────────────────╮\n\n"
+        TEXT = f"**🍹 ʜᴇʟʟᴇ ᴍʏ ᴅᴇᴀʀ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n⌾ 𝗜 𝗔𝗠 [{BotName}](tg://user?id={BotId})​**\n╭───────────────────╮\n\n"
         TEXT += f"➜ ** ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ‣ [ᴘʀᴏғᴇssᴏʀ](https://t.me/SOURABH_OWNER)**\n\n"
         TEXT += f"➲ ** 𝗣𝗥𝗢𝗙𝗘𝗦𝗦𝗢𝗥 || 𝗦𝗣𝝙𝗠​ ‣** `3.2`\n"
         TEXT += f"➲ ** 𝗣𝗥𝗢𝗙𝗘𝗦𝗦𝗢𝗥 || 𝗦𝗣𝝙𝗠​ ‣** `{telethon.__version__}`\n\n╰───────────────────╯"
