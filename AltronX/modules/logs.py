@@ -41,6 +41,6 @@ async def logs(legend):
         logfile = open("skspam.txt", "w")
         logfile.write("𝗦𝝙𝗡𝝙𝗧𝝙𝗡𝗜 || 𝗦𝗣𝝙𝗠​ [ BotSpam Logs ]\n\n" + logs)
         logfile.close()
-        await MK1.send_file(legend.chat_id, "skspam.txt", caption=f"𝗦𝝙𝗡𝝙𝗧𝝙𝗡𝗜 || 𝗦𝗣𝝙𝗠​\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
+        await MK1.send_file(legend.chat_id, "skspam.txt", caption=f"𝗡𝗔𝗥𝗨𝗝𝗔𝗔𝗧 || 𝗦𝗣𝗔𝗠\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
     else:
         await legend.reply("ѕσʀʀу : σиℓу σωиєʀᴄαи αᴄᴄєѕѕ тнιѕ ᴄσммαи∂ .")
