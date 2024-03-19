@@ -20,10 +20,10 @@ from telethon import events
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"•[ 🍹 4ѕт x ρʀσfєѕѕσʀ тум 🍹 ]•", parse_mode=None, link_preview=None)
+        altron = await e.reply(f"•[ 🍹 4ѕт x ɴᴀʀᴜᴊᴀᴀᴛ тум 🍹 ]•", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"[🍹] ρʀσfєѕѕσʀ ιѕ нєʀє\n[🏓] αвє αв тєʀα куα нσgα\n[⚡] кιѕкι ᴄнυ∂αι кαʀиι нαι\n\n➜ `{mp} ms`")
+        await altron.edit(f"[🍹] ɴᴀʀᴜ ιѕ нєʀє\n[🏓] αвє αв тєʀα куα нσgα\n[⚡] кιѕкι ᴄнυ∂αι кαʀиι нαι\n\n➜ `{mp} ms`")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -38,7 +38,7 @@ async def ping(e):
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"[🛸] ʀєвσσт ∂σиє\n[🍷] 2 мιит ωαιт ρℓєαѕє\n[🍁] fιʀ ααυиgα тєʀι мα ᴄнσ∂иє")
+        await e.reply(f"[🛸] ʀєвσσт ∂σиє\n[🍷] 2 мιит ωαιт ρℓєαѕє\n[🍁] ᴛᴇʀɪ ᴍᴀᴀ ᴋᴏ ᴄʜᴏᴅ ᴋ ᴀᴀᴛᴀ ʜᴜ")
         try:
             await MK1.disconnect()
         except Exception:
@@ -119,7 +119,7 @@ async def addsudo(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f":⧽ σує нσує мєʀα ᴄυтє вαᴄннα\n:⧽ `{target}`\n:⧽ `ωєℓᴄσмє тσ ρʀσfєѕѕσʀ ѕραм`")
+        await ok.edit(f":⧽ σує нσує мєʀα ᴄυтє вαᴄннα\n:⧽ `{target}`\n:⧽ `ωєℓᴄσмє тσ иαяυᴊααт ѕραм`")
         heroku_var[mks] = newsudo   
    
      
