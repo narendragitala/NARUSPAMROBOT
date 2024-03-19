@@ -16,7 +16,7 @@
 <p align="center"><a href="https://t.me/ALL_ABOUT_NARU"><img src="https://telegra.ph/file/84870d6d89b893e59c5f0.jpg" width="400"></a></p>
 
 
-> ⭐️ ᴛʜᴀɴᴋs ᴛᴏ ᴇᴠᴇʀʏᴏɴ ғᴏʀ ᴜsɪɴɢ THIS SANATANI SPAM BOT, ᴛʜᴀᴛ ɪs ᴛʜᴇ ɢʀᴇᴀᴛᴇsᴛ ᴘʟᴇᴀsᴜʀᴇ ᴡᴇ ʜᴀᴠᴇ !
+> ⭐️ ᴛʜᴀɴᴋs ᴛᴏ ᴇᴠᴇʀʏᴏɴ ғᴏʀ ᴜsɪɴɢ NATUJAAT SPAM BOT, ᴛʜᴀᴛ ɪs ᴛʜᴇ ɢʀᴇᴀᴛᴇsᴛ ᴘʟᴇᴀsᴜʀᴇ ᴡᴇ ʜᴀᴠᴇ !
 
 <br>
 
